@@ -24,3 +24,5 @@ Important Note: User needs to create 4 folders and change the hardcoded folders 
 4.  unused_path = '.../Train images/processed/unused/'      -> The ignored, unclean images are moved to this folder.
 #######################################################################################################################################
 Disclaimer: The sample images used in the repository are from google and may be subject to copyright. The images are purely used for demo.
+
+We used the tool to segment tree logs in 390 images, trained a basic u-net with image augmentation and predicted the logs for a test set of 30 images with an IOU of 80%. 
